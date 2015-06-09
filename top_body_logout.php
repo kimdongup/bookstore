@@ -1,0 +1,79 @@
+﻿<HTML>
+<HEAD>
+<title>서로닷컴</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="author" content="온라인서점">
+<meta name="keywords" content="온라인서점">
+<meta name="description" content="온라인서점">
+<meta name="classification" content="온라인서점">
+
+<LINK rel="stylesheet" type="text/css" href="seoro.css">
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<table align="center" cellpadding="0" cellspacing="0" width="800">
+<tr>
+<td align="center" width="100%">
+
+<span style="font-size:2pt;">&nbsp;</span><br>
+<table border="0" cellpadding="0" cellspacing="0" width="900">
+ <tr>
+<td rowspan="2" width="220">
+<!-- 로고 시작-->
+<a href="./home.php"><img src="./image/logo.jpg" border="0" width="200" height="50" alt="온라인서점"></a> 
+<!-- 로고 끝-->
+</td>
+
+<td width="680" align="right" valign="top">
+<!-- 상단메뉴 시작-->
+<span style=font-size:3pt;>&nbsp;</span><br>
+<a href="./logout.php">로그아웃</a> | <a href="./basket_buy.php">장바구니</a> | <a href="MyOTSearch.php">주문/배송조회</a> | <a href="./MyPage.php">마이페이지</a> | <a href="MyList.php">마이리스트</a> | <a href="MyReviewAll.php">마이리뷰</a> | <a href="MyBlog.php">내블로그</a> | <a href="CustomerC.php">고객센터</a> 
+<!-- 상단메뉴 끝-->
+</td>
+</tr>
+<tr>
+<td>
+<!-- 검색 시작 -->
+<table width="680" align="center">
+	<tr>
+	<td width="400" align="right" valign="top">
+	<form action="GoodsSearchGuid.php" method="post" onSubmit="return content_check(this)">
+	<select name=find>
+	<option value=search>통합검색</option>
+	<option value=name>도서제목</option>
+	<option value=author>저자/역자</option>
+	<option value=publishing>출판사</option>
+	</select>
+	<input type="text" name="search" size="30">
+	</td>
+	<td width="50">
+	<INPUT type=image src="image/search_top.gif" border="0" alt="검색" width="42" height="19">
+	</td>
+	<td width="190" valign="top">
+	</td></form>	
+	</tr>
+</table>
+<!-- 검색 끝 -->
+</td>
+</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="900">
+<tr>
+<td width="200" height="30" align="center" bgcolor="#6699CC">
+<a href="escrow.php"><font color="white">에스크로(매매보호)</font></a>
+</td>
+<td width="700" height="30" align="center" bgcolor="#6699CC">
+<font color="white">
+<a href="home.php"><font color="white">국내도서</font></a> |
+<a href="Category.php?categoryname=베스트셀러&categorycolumn=best&categoryvalue=1"><font color="white">베스트셀러</font></a> |
+<a href="Category.php?categoryname=신간안내&categorycolumn=gsnew&categoryvalue=1"><font color="white">신간안내</font></a> |
+<a href="Category.php?categoryname=추천도서&categorycolumn=recomend&categoryvalue=1"><font color="white">추천도서</font></a> |
+<a href="Category.php?categoryname=세일도서&categorycolumn=sale&categoryvalue=1"><font color="white">세일도서</font></a> |
+<a href="Review.php"><font color="white">회원리뷰</font></a> |
+<a href="SynerOrderList.php"><font color="white">공동구매</font></a> | 
+<a href="LargeOrderList.php"><font color="white">대량구매</a></font> | 
+<a href="AuctionOrderList.php"><font color="white">경매</a></font>
+</td>
+ </tr>
+</table>

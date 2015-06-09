@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="makefile.xsl" ?>
+<자기소개서>
+    <이름>홍길동</이름>
+    <성별>남자</성별>
+    <나이>200세</나이>
+    <주소>대한민국 서울시 역삼동 </주소>
+</자기소개서>

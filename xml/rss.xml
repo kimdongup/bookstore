@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:blogChannel="http://backend.userland.com/blogChannelModule">
+<channel>
+<title>블로그</title> 
+<description>온라인서점 블로그 입니다.</description> 
+<link>hhttp://localhost/onlibrary</link> 
+<language>ko</language> 
+<image>
+<title>seoro의 블로그</title> 
+<url>hhttp://localhost/onlibrary/image/seoro_bottom7.jpg</url> 
+<description>seoro의 블로그 입니다.</description> 
+<link>hhttp://localhost/onlibrary</link> 
+</image>
+<item>
+<title>rss1 테스트</title> 
+<description>
+<![CDATA[ 
+rss1 테스입니다.<br />
+그러나 이 내용은 나오지 않습니다.<br />
+  ]]> 
+</description>
+<link>hhttp://localhost/onlibrary/rss1.html</link> 
+<pubDate>Mun, 27 Mar 2006 10:04:17 +0900</pubDate> 
+<category>기본폴더</category> 
+</item>
+<item>
+<title>rss2 테스트</title> 
+<description>
+<![CDATA[ 
+rss2 테스입니다.<br />
+이 내용 역시 나오지 않습니다.<br />
+  ]]> 
+</description>
+<link>hhttp://localhost/onlibrary/rss2.html</link> 
+<pubDate>Mun, 27 Mar 2006 10:07:20 +0900</pubDate> 
+<category>기본폴더</category> 
+</item>
+</channel>
+</rss>

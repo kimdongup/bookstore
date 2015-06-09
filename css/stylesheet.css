@@ -1,0 +1,29 @@
+body, p, td, input, select, textarea {font-size:9pt;}
+A:link    { text-decoration: none; color:#000000;}
+A:visited { text-decoration: none; color:#000000;}
+A:hover   { text-decoration: underline; color:#000000;}
+
+a.top_menu:link          { color:#FFFF00; }
+a.top_menu:visited       { color:#FFFF00; }
+a.top_menu:hover         { text-decoration: none; color:#FFFFFF; }
+
+a.top_menu2:link          { color:#000000; }
+a.top_menu2:visited       { color:#000000; }
+a.top_menu2:hover         { text-decoration: none; color:#FF0000; }
+
+a.top_menu3:link          { color:#003333; }
+a.top_menu3:visited       { color:#003333; }
+a.top_menu3:hover         { text-decoration: none; color:#CC6600; }
+
+a.top_menu4:link          { color:#2B75F0; }
+a.top_menu4:visited       { color:#2B75F0; }
+a.top_menu4:hover         { text-decoration: none; color:#333333; }
+
+.fontcolor   { color:white; }
+
+.bgc_table   { background-color:#99CCFF; }
+.bgc_table2   { background-color:#F3F8FD; }
+
+.bgc_bar   { background-color:#1C7FDA; }
+.bgc_bar2   { background-color:#85BAF0; }
+.height120 { line-height:120%; }
